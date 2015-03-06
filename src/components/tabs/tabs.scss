@@ -1,3 +1,5 @@
+@import "compass/css3/box-sizing";
+
 en-tabs {
 
     display             : table;
@@ -16,19 +18,19 @@ en-tabs {
     .no-touch en-tab:hover,
     en-tab:hover,
     en-tab:active {
-        border-color    : $color-secondary;
+        border-color    : #004aff;
     }
     en-tab.active,
     en-tab.active:active,
     .no-touch en-tab.active:hover,
     en-tab.active:hover {
-        border-color    : $color-primary;
-        color           : $color-primary;
+        border-color    : #1500ff;
+        color           : #1500ff;
     } 
 
 }
 
-en-tab-panes {
+en-tab-container {
     display:block;
 
     en-tab-pane{

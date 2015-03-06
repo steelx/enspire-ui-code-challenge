@@ -7,7 +7,7 @@ This code challenge is to test your experience and knowledge with AngularJS and 
 
 We have simplified this challenge by scaffolding out the `directives`, `services` and `controllers`, as well as the needed CSS, you will need to complete this task.
 
-The directions below assume you are familiar with, and have used, `node` and `grunt` in your past development environments.
+The directions below assume you are familiar with, and have used, `node`, `grunt` and `bower` in your past development environments.
 
 ### 1. Getting Started
 
@@ -81,6 +81,8 @@ Refer to `index.html` for tabs usage examples.
 - The `pane` attribute refers to the name of the \<en-tab-pane\>
 - The `selected` attribute, when 'true', makes the tab initially active
 
+When a tab is `active` you should set a class name of `active` on the element.
+
 #### Tab Container (directive)
 \<en-tab-container data-name="containerName"\>  - `tabContainer/tabContainerDirective.js`
 
@@ -92,6 +94,8 @@ Refer to `index.html` for tabs usage examples.
 
 - The `name` attribute sets the name of the tab pane
 
+When a pane is `active` you should set a class name of `active` on the element.
+
 #### Tabs Service (service)
 $enTabs - `tabsService.js`
 
@@ -99,6 +103,7 @@ $enTabs - `tabsService.js`
 - This also allows selecting tabs from anywhere within the code base.
 
 ## FINAL RESULTS
+
 
 
 ## NO - NOs
