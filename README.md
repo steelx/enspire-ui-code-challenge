@@ -103,7 +103,9 @@ $enTabs - `tabsService.js`
 - This also allows selecting tabs from anywhere within the code base.
 
 ## FINAL RESULTS
+Email final results to your contact.
 
+![Final Results](https://raw.github.com/jasonfutch/enspire-ui-code-challenge/master/final-results.gif)
 
 
 ## NO - NOs

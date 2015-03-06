@@ -22,7 +22,7 @@
     function TabPaneDirective($enTabs) {
         return {
             restrict: 'E',
-            require: "^enTabPanes",
+            require: "^enTabContainer",
             link: postLink
         };
 

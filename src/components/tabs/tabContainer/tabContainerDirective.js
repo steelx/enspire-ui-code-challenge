@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('enspire.ui.components.tabs')
-        .directive('enTabPanes', TabContainerDirective);
+        .directive('enTabContainer', TabContainerDirective);
 
     /**
      * @ngdoc directive

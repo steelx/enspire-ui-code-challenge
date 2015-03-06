@@ -16,7 +16,7 @@
      * @param {boolean=}     selected             Determines active tab.
      *
      * @description
-     * Produces a div which contains tab content; requires en-tabs directive.
+     * `en-tab`...
      *
      */
 

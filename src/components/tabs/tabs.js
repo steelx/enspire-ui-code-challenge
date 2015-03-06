@@ -6,7 +6,7 @@
      * @name enspire.ui.components.tabs
      * @description
      *
-     *  App `<en-tabs>` directive..
+     *  Tabs Component Module..
      *
      */
     angular.module('enspire.ui.components.tabs', []);

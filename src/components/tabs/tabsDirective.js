@@ -28,9 +28,9 @@
         function postLink($scope, $element, $attrs) {
             /**
              *
-             * YOUR CODE GOES HERE
+             * YOUR CODE CAN GO HERE
              *
              * */
-        }
+         }
     }
 })();

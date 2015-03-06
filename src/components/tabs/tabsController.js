@@ -12,8 +12,8 @@
      *
      */
 
-    TabsController.$inject = ["$attrs","$enTabs"];
-    function TabsController($attrs, $enTabs) {
+    TabsController.$inject = ["$attrs","$enTabs","$timeout"];
+    function TabsController($attrs, $enTabs,$timeout) {
         var self = this;
 
         /**
