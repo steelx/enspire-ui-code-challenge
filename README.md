@@ -3,28 +3,36 @@ Welcome to the Enspire Commerce UI Code Challenge
 
 ## OVERVIEW
 
-The purpose of this code challenge is to test your experience and knowledge in AngularJS and expose you to a small portion of the type of work we do. This challenge focuses on `directives` and is very similar to the the daily tasks you will be required to complete.
+This code challenge is to test your experience and knowledge with AngularJS and to expose you to a small portion of the type of work we do. This challenge focuses on `directives` and is similar to the daily tasks you will be required to complete.
 
-We have simplified this challenge by scaffolding out all the `directives`, `services` and `controllers` needed to complete this task. We also provided the needed CSS.
+We have simplified this challenge by scaffolding out the `directives`, `services` and `controllers`, as well as the needed CSS, you will need to complete this task.
 
-The directions below are under the assumption you have used `node` and `grunt` in your past development environments.
+The directions below assume you are familiar with, and have used, `node` and `grunt` in your past development environments.
 
 ### 1. Getting Started
 
-Install all dependencies.
+```bash
 
-    npm install
+# First install all the NPM dependencies:
+npm install
+
+# Second install all the bower dependencies:
+bower install
+
+```
 
 ### 2. Building/Testing project
 
-To build your component and test.
+```bash
 
-    grunt
+# Build your component and test:
+grunt
 
+```
 
 ## THE CHALLENGE
 
-You will be required to complete the TABS component, which is located in the `src/components/tabs/` folder. With the exception of the following **marked areas**, every file has what it needs to work. Feel free though to modify or change the code outside this area.
+You will be required to complete the **TABS** component, located in `src/components/tabs/`. With the exception of the following *marked areas*, every file has what it needs to work. *You are allowed to modify any code outside of these areas*.
 
 ```js
     /**
@@ -36,7 +44,7 @@ You will be required to complete the TABS component, which is located in the `sr
 
 ### Requirements
 
-Refer to `index.html` to see structure of how tabs are used.
+Refer to `index.html` for tabs usage examples.
 
 ```html
     <en-tabs data-container="myContainName">
@@ -57,6 +65,9 @@ Refer to `index.html` to see structure of how tabs are used.
         </en-tab-pane>
     </en-tab-container>
 ```
+
+
+
 
 #### Tabs (directive)
 \<en-tabs data-container="containerName"\>  - `tabsDirective.js`
@@ -87,10 +98,13 @@ $enTabs - `tabsService.js`
 - This holds all active `tab containers` and their active tabs
 - This also allows selecting tabs from anywhere within the code base.
 
+## FINAL RESULTS
+
+
 ## NO - NOs
 
 - No 'JQuery'. Angulars built in JQlite is acceptable.
-- NO touching the `DOM` in `controllers` or `services`, it can only be touched within `directives`.
+- No touching the `DOM` in `controllers` or `services`, it can only be touched within `directives`.
 - Avoid `isolated` scopes for this challenge.
 - Avoid `templates` for this challenge.
 - Avoid `transclude`  for this challenge.
