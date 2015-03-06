@@ -103,10 +103,13 @@ $enTabs - `tabsService.js`
 - This also allows selecting tabs from anywhere within the code base.
 
 ## FINAL RESULTS
-Email final results to your contact.
+Zip your code and email it to your contact at Enspire Commerce.
 
 ![Final Results](https://raw.github.com/jasonfutch/enspire-ui-code-challenge/master/final-results.gif)
 
+
+## HINTS
+We like to use $timeout instead of $apply to trigger a digestion.
 
 ## NO - NOs
 
