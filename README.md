@@ -109,7 +109,7 @@ $enTabs - `tabsService.js`
 ## NO - NOs
 
 - No 'JQuery'. Angulars built in JQlite is acceptable.
-- No touching the `DOM` in `controllers` or `services`, it can only be touched within `directives`.
+- No touching the `DOM` in `controllers` or `services`, it can only be touched within `directives`. EXCEPTION: to using the addClass & removeClass methods.
 - Avoid `isolated` scopes for this challenge.
 - Avoid `templates` for this challenge.
 - Avoid `transclude`  for this challenge.
