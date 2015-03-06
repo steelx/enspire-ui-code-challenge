@@ -24,7 +24,7 @@ To build your component and test.
 
 ## THE CHALLENGE
 
-You will be required to complete the TABS component, which is located in the `src/components/tabs/` folder. Every file already has everything that it needs to work, with exception to the following marked areas. Feel free though to modify or change the code outside this area.
+You will be required to complete the TABS component, which is located in the `src/components/tabs/` folder. With the exception of the following **marked areas**, every file has what it needs to work. Feel free though to modify or change the code outside this area.
 
 ```js
     /**
