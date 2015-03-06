@@ -38,21 +38,31 @@ You will be required to complete the TABS component, which is located in the `sr
 
 Refer to `index.html` to see structure of how tabs are used.
 
-#### Tabs (directive) - \<en-tabs data-container="containerName"\>  - `tabsDirective.js`
+#### Tabs (directive)
+\<en-tabs data-container="containerName"\>  - `tabsDirective.js`
+
 - The `container` attribute refers to the name of the \<en-tab-container\>
 - This directive has a controller `tabsController.js`
 
-#### Tab (directive) - \<en-tab data-pane="paneName"\>  - `tab/tabDirective.js`
+#### Tab (directive)
+\<en-tab data-pane="paneName"\>  - `tab/tabDirective.js`
+
 - The `pane` attribute refers to the name of the \<en-tab-pane\>
 
-#### Tab Container (directive) - \<en-tab-container data-name="containerName"\>  - `tabContainer/tabContainerDirective.js`
+#### Tab Container (directive)
+\<en-tab-container data-name="containerName"\>  - `tabContainer/tabContainerDirective.js`
+
 - The `name` attribute sets the name of the tab container
 - This directive has a controller `tabContainer/tabContainerController.js`
 
-#### Tab Pane (directive) - \<en-tab-pane data-name="paneName"\>  - `tabPane/tabPaneDirective.js`
+#### Tab Pane (directive)
+\<en-tab-pane data-name="paneName"\>  - `tabPane/tabPaneDirective.js`
+
 - The `name` attribute sets the name of the tab pane
 
-#### $enTabs (service) - `tabsService.js`
+#### $enTabs (service)
+`tabsService.js`
+
 - This holds all active `tab containers` and their active tabs
 - This also allows selecting tabs from anywhere within the code base.
 
