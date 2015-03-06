@@ -113,6 +113,9 @@ Zip your code and email it to your contact at Enspire Commerce.
 ## HINTS
 We like to use $timeout instead of $apply to trigger a digestion.
 
+## BONUS POINTS
+Using the `tabs.spec.js`  file, write tests for this component.
+
 ## NO - NOs
 
 - No 'JQuery'. Angulars built in JQlite is acceptable.
