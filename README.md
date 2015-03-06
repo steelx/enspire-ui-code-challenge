@@ -38,6 +38,26 @@ You will be required to complete the TABS component, which is located in the `sr
 
 Refer to `index.html` to see structure of how tabs are used.
 
+```html
+    <en-tabs data-container="myContainName">
+        <en-tab data-pane="myPaneName1" data-selected="true">Tab #1</en-tab>
+        <en-tab data-pane="myPaneName2">Tab #2</en-tab>
+        <en-tab data-pane="myPaneName3">Tab #3</en-tab>
+    </en-tabs>
+
+    <en-tab-container data-name="myContainName">
+        <en-tab-pane data-name="myPaneName1">
+            Panes Content #1
+        </en-tab-pane>
+        <en-tab-pane data-name="myPaneName2">
+            Panes Content #2
+        </en-tab-pane>
+        <en-tab-pane data-name="myPaneName3">
+            Panes Content #3
+        </en-tab-pane>
+    </en-tab-container>
+```
+
 #### Tabs (directive)
 \<en-tabs data-container="containerName"\>  - `tabsDirective.js`
 
@@ -48,6 +68,7 @@ Refer to `index.html` to see structure of how tabs are used.
 \<en-tab data-pane="paneName"\>  - `tab/tabDirective.js`
 
 - The `pane` attribute refers to the name of the \<en-tab-pane\>
+- The `selected` attribute, when 'true', makes the tab initially active
 
 #### Tab Container (directive)
 \<en-tab-container data-name="containerName"\>  - `tabContainer/tabContainerDirective.js`
