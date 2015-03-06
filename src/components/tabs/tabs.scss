@@ -1,0 +1,41 @@
+en-tabs {
+
+    display             : table;
+    line-height         : normal;
+    
+    en-tab {
+        font-size       : 1.3rem;
+        border-bottom   : 0.2rem solid rgba(0, 0, 0, 0);
+        padding         : 0.9rem 1.2rem;
+        display         : table-cell;
+        font-weight     : 600;
+        margin-left     : 1rem;
+        
+        @include box-sizing(border-box);
+    }
+    .no-touch en-tab:hover,
+    en-tab:hover,
+    en-tab:active {
+        border-color    : $color-secondary;
+    }
+    en-tab.active,
+    en-tab.active:active,
+    .no-touch en-tab.active:hover,
+    en-tab.active:hover {
+        border-color    : $color-primary;
+        color           : $color-primary;
+    } 
+
+}
+
+en-tab-panes {
+    display:block;
+
+    en-tab-pane{
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}
