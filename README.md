@@ -3,6 +3,8 @@ Welcome to the Enspire Commerce UI Code Challenge
 
 ## OVERVIEW
 
+ONLY DOWNLOAD THIS REPO AND PLEASE DO NOT BRANCH.
+
 This code challenge is to test your experience and knowledge with AngularJS and to expose you to a small portion of the type of work we do. This challenge focuses on `directives` and is similar to the daily tasks you will be required to complete.
 
 We have simplified this challenge by scaffolding out the `directives`, `services` and `controllers`, as well as the needed CSS, you will need to complete this task.
