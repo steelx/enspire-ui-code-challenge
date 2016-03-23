@@ -14,11 +14,11 @@
      *
      * @element en-tabs
      *
-     * @param {string=}      container          Defines name of container () that the tabs reside in.
+     * @param {string=}      container Defines name of container () that the tabs reside in.
      *
      */
 
-    function TabsDirective() {
+    function TabsDirective($timeout) {
         return {
             restrict: 'E',
             controller: 'enTabsController',
@@ -26,11 +26,14 @@
         };
 
         function postLink($scope, $element, $attrs) {
-            /**
-             *
-             * YOUR CODE CAN GO HERE
-             *
-             * */
-         }
+            var tabs = $element[0].children;
+            $scope.$on('removeActive', removeActive);
+
+            function removeActive() {
+                angular.forEach(tabs, function functionName(el) {
+                    angular.element(el).removeClass('active');
+                });
+            }
+        }
     }
 })();

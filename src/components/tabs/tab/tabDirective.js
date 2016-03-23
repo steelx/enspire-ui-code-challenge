@@ -29,11 +29,23 @@
         };
 
         function postLink($scope, $element, $attrs, tabsCtrl) {
-            /**
-             *
-             * YOUR CODE GOES HERE
-             *
-             * */
+            var tabHeadEl = angular.element($element),
+            pane = $attrs.pane,
+            selected = $attrs.selected;
+
+            tabHeadEl.on('click', function tabHeadElClick(evt) {
+                tabsCtrl.removeSelected();
+                tabsCtrl.setActivePane(pane);
+                selected = true;
+                setSelected();
+            });
+
+            setSelected();
+            function setSelected() {
+                if(selected){
+                    tabHeadEl.addClass('active');
+                }
+            }
         }
     }
 })();

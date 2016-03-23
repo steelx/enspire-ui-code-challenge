@@ -1,0 +1,44 @@
+/* line 3, ../src/components/tabs/tabs.scss */
+en-tabs {
+  display: table;
+  line-height: normal;
+}
+/* line 8, ../src/components/tabs/tabs.scss */
+en-tabs en-tab {
+  font-size: 1.3rem;
+  border-bottom: 0.2rem solid transparent;
+  padding: 0.9rem 1.2rem;
+  display: table-cell;
+  font-weight: 600;
+  margin-left: 1rem;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 18, ../src/components/tabs/tabs.scss */
+en-tabs .no-touch en-tab:hover,
+en-tabs en-tab:hover,
+en-tabs en-tab:active {
+  border-color: #556069;
+}
+/* line 23, ../src/components/tabs/tabs.scss */
+en-tabs en-tab.active,
+en-tabs en-tab.active:active,
+en-tabs .no-touch en-tab.active:hover,
+en-tabs en-tab.active:hover {
+  border-color: #1500ff;
+  color: #1500ff;
+}
+
+/* line 33, ../src/components/tabs/tabs.scss */
+en-tab-container {
+  display: block;
+}
+/* line 36, ../src/components/tabs/tabs.scss */
+en-tab-container en-tab-pane {
+  display: none;
+}
+/* line 39, ../src/components/tabs/tabs.scss */
+en-tab-container en-tab-pane.active {
+  display: block;
+}

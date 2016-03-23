@@ -1,6 +1,17 @@
 Welcome to the Enspire Commerce UI Code Challenge
 ===============
 
+###Preview local
+```bash
+
+# First grunt compile
+grunt
+
+# Second run local server npm install -g http-sever
+http-server
+
+```
+
 ## OVERVIEW
 
 **ONLY DOWNLOAD THIS REPO AND PLEASE DO NOT BRANCH.**

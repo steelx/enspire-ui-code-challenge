@@ -3,7 +3,7 @@
 
     angular.module('enspire.ui.components.tabs')
         .controller('enTabsController', TabsController);
-    
+
     /*
      * @private
      * @ngdoc controller
@@ -12,15 +12,19 @@
      *
      */
 
-    TabsController.$inject = ["$attrs","$enTabs","$timeout"];
-    function TabsController($attrs, $enTabs,$timeout) {
+    TabsController.$inject = ["$scope","$attrs","$enTabs","$timeout"];
+    function TabsController($scope,$attrs, $enTabs,$timeout) {
         var self = this;
 
-        /**
-         *
-         * YOUR CODE GOES HERE
-         *
-         * */
+        self.containerName = $attrs.container;
+
+        this.removeSelected = function removeSelectedFromAll() {
+            $scope.$broadcast('removeActive');
+        };
+
+        this.setActivePane = function setActivePane(pane) {
+            //
+        };
     }
-    
+
 })();

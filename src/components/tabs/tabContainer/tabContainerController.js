@@ -3,7 +3,7 @@
 
     angular.module('enspire.ui.components.tabs')
         .controller('enTabContainerController', TabContainerController);
-    
+
     /**
      * @private
      * @ngdoc controller
@@ -14,11 +14,7 @@
 
     TabContainerController.$inject = ["$scope","$element","$attrs","$enTabs"];
     function TabContainerController($scope, $element, $attrs, $enTabs) {
-        /**
-         *
-         * YOUR CODE GOES HERE
-         *
-         * */
+        
     }
-    
+
 })();
